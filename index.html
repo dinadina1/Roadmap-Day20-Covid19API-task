@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>COVID-19 India State-wise Statistics</title>
+  <link rel="icon"
+    href="https://th.bing.com/th/id/OIP.4xR52D2Mha3pOW2Z6I5N8wHaHD?w=161&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;500;600;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-4 body">
+
+  <nav class="navbar sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-bold navbar__brand-title" href="#" target="Covid-19">Covid-19</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="mt-4 mb-4 covid-head">India State-wise Statistics</h1>
+
+    <div class="form-group">
+      <label for="stateDropdown" class="table-head">Select State:</label>
+      <select id="stateDropdown" class="form-control">
+        <!-- State options will be added here-->
+      </select>
+    </div>
+
+    <button id="fetchDataBtn" class="btn btn-primary">Submit</button>
+
+    <div id="covidData" class="card mt-4">
+      <div class="card-body">
+        <h5 class="card-title">State Details</h5>
+        <div id="stateDetailsTable" class="table-responsive">
+          <!-- State details table will be added here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+
+</body>
+
+</html>

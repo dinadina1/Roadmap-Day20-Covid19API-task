@@ -1,0 +1,19 @@
+.body {
+    font-family: Noto Sans;
+    background: linear-gradient(90deg, rgb(241, 99, 161) 0%, rgb(68, 137, 215) 100%);
+    z-index: 1;
+}
+
+.navbar__brand-title {
+    font-size: 30px;
+    color: white;
+}
+
+.covid-head,
+.table-head {
+    color: whitesmoke;
+}
+
+.form-control {
+    z-index: 2;
+}
