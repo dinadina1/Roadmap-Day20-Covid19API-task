@@ -2,7 +2,7 @@
 <p>This webpage is used to Check Covid-19 Case details.</p>
 <p>In this page holds Covid-19 Confirmed cases, Acive cases, Recovered, Deceased and Last update from the selected state.</p>
 <p>Users must select state name from the Dropdownlist then will getting case details after the submission.</p>
-<p>I used Html,CSS,Bootstrap,Javascript using fetch API for developing this page.</p>
+<p>I used Html,CSS,Bootstrap,Javascript using fetch API for developing this page with Responsive.</p>
 <p>I attached Webpage Screenshots in below:</p>  <br>
 
 <h2>Website URL</h2>
